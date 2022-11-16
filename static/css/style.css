@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap');
+
+span{
+    font-size: 20px;
+    color: black;
+}
+
+.top-div{
+    margin: 35px auto;
+    background-color:#fff;
+    width: 90%;
+    height: 600px;
+    border-radius: 35px;
+    
+    /* background-image: linear-gradient(to bottom right, red, yellow); */
+}
+
+.top-div h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: s;
+    color: black;
+}
+
+.input-design{
+    text-align:center;
+    padding: 6px 25px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px lightpink;
+}
+
+.gh{
+    margin-top:250px;
+}
+
+
+
+.left-div{
+    float: left;
+    width: 50%; 
+    height: 100%;
+    background-image: linear-gradient(#cc2b5e ,#753a88);
+    
+    padding-top: 0px;
+    padding-left: 20px;
+    border-radius: 25px;
+}
+
+
+.right-div{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+
+
+.nav-item{
+    font-size: 20px;
+}
+
+.left-div a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.left-div a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* new design */
+
+.wrapper{
+    height:60vh;
+    display:grid;
+    margin-bottom: 40px;
+    place-items:center;
+}
+
+.typing-demo{
+    width:35ch;
+    animation: typing 3s steps(22), blink .5s
+    step-end infinite alternate;
+     /* white-space: wrap; */
+     white-space: initial;
+    /*overflow: hidden; */
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em ;
+}
+
+@keyframes typing{
+    from{
+        width:0
+    }
+}
+
+@keyframes blink{
+    50%{
+        border-color: transparent;
+    }
+}
+
+.desLeftDiv h3{
+    font-size: 8rem;font-family: 'Kolker Brush', serif; color:#fff;
+}

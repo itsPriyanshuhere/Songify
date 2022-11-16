@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Song Recommender</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/85aaa41db7.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Kolker+Brush&family=Merriweather:ital,wght@1,300&family=Montserrat&family=Montserrat+Subrayada&family=Passions+Conflict&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body style="background-image: linear-gradient(#cc2b5e ,#753a88);">
+    <section id="header">
+        <div>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a style="font-size: 40px;font-family: 'Kolker Brush',cursive; color:#fff;" class="navbar-brand" href="#"><i class="fa-solid fa-headphones"></i> Songify</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </div>
+              </nav>
+        </div>
+    </section>
+    <div class="top-div">
+        <div style="color: #fff;" class="left-div">
+            <h3 style="font-size: 11rem;text-align: center;transform:rotate(-25deg);font-family: 'Kolker Brush', serif; color:#fff;">Songify</h3>
+            <div class="wrapper">
+                <div class="typing-demo">
+                One stop solution to find more of what you like
+                </div>
+            </div>
+        </div>
+        <div class="right-div">
+            
+            <form action="/" method="POST">
+            <input class="input-design gh" type="text" name="Song" placeholder="Type Song">
+            <br><br>
+            <input class="input-design hg" type="number" name="numb" placeholder="No of songs"><br><br>
+            <button style="--content: 'Submit!';" class="btn btn-outline-danger btn-lg" href="https://twitter.com/kamildyrek">
+                <div class="left"></div>
+                  Submit
+                <div class="right"></div>
+              </button>
+        </div>
+    </div>
+    <!-- <section style="background-color: WHITE;" id="aboutus">
+       
+    </section> -->
+</form>
+</body>
+</html>
+
+
+
