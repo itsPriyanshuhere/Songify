@@ -1,7 +1,5 @@
 # Songify
 
-Thanks to @Nimish-Dureja-10 for his equal contribution throughout the project.
-
 https://youtu.be/Z1RJmh_OqeA use this link to setup flask environment and instructions to run the flask file for this project on your system for both mac os and windows.
 Please ensure to enter the correct file path of csv in the .py file.
 watch upto 8:40 to setup the environment for the project.
